@@ -1,2 +1,6 @@
 npm run dev /// para ejecutar el proyecto en el buscador
 http://127.0.0.1:5173/    /// Para ver el proyecto en el buscador
+
+
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build" prueba en package.json
