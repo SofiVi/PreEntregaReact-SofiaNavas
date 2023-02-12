@@ -1,0 +1,87 @@
+{
+    "items": [
+      {
+        "id": { "id": "1" },
+        "fields": {
+          "title": "Water",
+          "price": 10.99,
+          "image": { "fields": { "file": { "url": "./images/agua.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "2" },
+        "fields": {
+          "title": "Cake",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/almendrado.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "3" },
+        "fields": {
+          "title": "Beer",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/cerveza.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "4" },
+        "fields": {
+          "title": "Pepsi",
+          "price": 22.99,
+          "image": { "fields": { "file": { "url": "./images/gaseosa.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "5" },
+        "fields": {
+          "title": "Tuna Empanada",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/empanada_atun.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "6" },
+        "fields": {
+          "title": "Rustic Empanada",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/empanada_carne.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "7" },
+        "fields": {
+          "title": "Cheese Empanada",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/empanada_jamonyqueso.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "8" },
+        "fields": {
+          "title": "Olive Pizza",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/muzzarella.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "9" },
+        "fields": {
+          "title": "Napo Pizza",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/napolitana.jpg" } } }
+        }
+      },
+      {
+        "id": { "id": "5" },
+        "fields": {
+          "title": "Rustic Pizza",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/jamonymorron.jpg" } } }
+        }
+      }
+      
+      
+    ]
+  }
+  
