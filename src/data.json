@@ -1,87 +1,188 @@
-{
-    "items": [
-      {
-        "id": { "id": "1" },
-        "fields": {
-          "title": "Water",
+[
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "image": "./images/logo.jpg",
+      "price": 10,
+      "category": "Pizzas"
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni Pizza",
+      "image": "../images/logo.jpg",
+      "price": 12,
+      "category": "Pizzas"
+    },
+    {
+      "id": 3,
+      "name": "Hawaiian Pizza",
+      "image": "/images/logo.jpg",
+      "price": 11,
+      "category": "Pizzas"
+    },
+    {
+      "id": 4,
+      "name": "Veggie Pizza",
+      "image": "../images/logo.jpg",
+      "price": 13,
+      "category": "Pizzas"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Empanada",
+      "image": "../images/logo.jpg",
+      "price": 7,
+      "category": "Empanadas"
+    },
+    {
+      "id": 6,
+      "name": "Beef Empanada",
+      "image": "../images/logo.jpg",
+      "price": 8,
+      "category": "Empanadas"
+    },
+    {
+      "id": 7,
+      "name": "Cheese Empanada",
+      "image": "../images/logo.jpg",
+      "price": 6,
+      "category": "Empanadas"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Cake",
+      "image": "../images/logo.jpg",
+      "price": 5,
+      "category": "Desserts"
+    },
+    {
+      "id": 9,
+      "name": "Cheese Cake",
+      "image": "../images/logo.jpg",
+      "price": 5,
+      "category": "Desserts"
+    },
+    {
+      "id": 10,
+      "name": "Ice Cream",
+      "image": "../images/logo.jpg",
+      "price": 4,
+      "category": "Desserts"
+    },
+    {
+      "id": 11,
+      "name": "Lemonade",
+      "image": "../images/logo.jpg",
+      "price": 3,
+      "category": "Refreshing"
+    },
+    {
+      "id": 12,
+      "name": "Iced Tea",
+      "image": "../images/logo.jpg",
+      "price": 3,
+      "category": "Refreshing"
+    },
+    {
+      "id": 13,
+      "name": "Soda",
+      "image": "../images/logo.jpg",
+      "price": 2,
+      "category": "Refreshing"
+    },
+    
+        {
+          "id": 14,
+          "name": "Pepperoni Veggie Pizza",
+          "image": "../images/logo.jpg",
+          "price": 12.99,
+          "category": "Pizzas"
+        },
+        {
+          "id": 15,
+          "name": "Pepper Pizza",
+          "image": "../images/logo.jpg",
           "price": 10.99,
-          "image": { "fields": { "file": { "url": "./images/agua.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "2" },
-        "fields": {
-          "title": "Cake",
-          "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/almendrado.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "3" },
-        "fields": {
-          "title": "Beer",
-          "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/cerveza.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "4" },
-        "fields": {
-          "title": "Pepsi",
-          "price": 22.99,
-          "image": { "fields": { "file": { "url": "./images/gaseosa.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "5" },
-        "fields": {
-          "title": "Tuna Empanada",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/empanada_atun.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "6" },
-        "fields": {
-          "title": "Rustic Empanada",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/empanada_carne.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "7" },
-        "fields": {
-          "title": "Cheese Empanada",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/empanada_jamonyqueso.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "8" },
-        "fields": {
-          "title": "Olive Pizza",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/muzzarella.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "9" },
-        "fields": {
-          "title": "Napo Pizza",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/napolitana.jpg" } } }
-        }
-      },
-      {
-        "id": { "id": "5" },
-        "fields": {
-          "title": "Rustic Pizza",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/jamonymorron.jpg" } } }
-        }
-      }
-      
-      
-    ]
+          "category": "Pizzas"
+        },
+        {
+          "id": 16,
+          "name": "Hot dog Pizza",
+          "image": "../images/logo.jpg",
+          "price": 11.99,
+          "category": "Pizzas"
+        },
+        {
+          "id": 17,
+          "name": "Ham and Pineapple Pizza",
+          "image": "../images/logo.jpg",
+          "price": 13.99,
+          "category": "Pizzas"
+        },
+        {
+          "id": 18,
+          "name": "Barbecue Chicken Pizza",
+          "image": "../images/logo.jpg",
+          "price": 14.99,
+          "category": "Pizzas"
+        },
+        {
+          "id": 19,
+          "name": "Beef Empanadas",
+          "image": "../images/logo.jpg",
+          "price": 8.99,
+          "category": "Empanadas"
+        },
+        {
+          "id": 20,
+          "name": "Chicken Empanadas",
+          "image": "../images/logo.jpg",
+          "price": 8.99,
+          "category": "Empanadas"
+        },
+        {
+          "id": 21,
+          "name": "Cheese Empanadas",
+          "image": "../images/logo.jpg",
+          "price": 7.99,
+          "category": "Empanadas"
+        },
+        {
+          "id": 22,
+          "name": "Apple Pie",
+          "image": "../images/logo.jpg",
+          "price": 5.99,
+          "category": "Desserts"
+        },
+        {
+          "id": 23,
+          "name": "Chocolate Cake",
+          "image": "../images/logo.jpg",
+          "price": 6.99,
+          "category": "Desserts"
+        },
+        {
+          "id": 24,
+          "name": "Cheesecake",
+          "image": "../images/logo.jpg",
+          "price": 6.99,
+          "category": "Desserts"
+        },
+        {
+          "id": 25,
+          "name": "Ice Cream Sundae",
+          "image": "../images/logo.jpg",
+          "price": 4.99,
+          "category": "Desserts"
+        },
+        {
+          "id": 26,
+          "name": "Orange Juice",
+          "image": "../images/logo.jpg",
+          "price": 2,
+    "category": "Refreshing"
   }
+]
+      
+  
   

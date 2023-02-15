@@ -1,8 +1,9 @@
 import React from 'react'
+import logo from '../images/logo.jpg';
 
 const Welcome = () => {
   return (
-    <div>Welcome</div>
+    <img src={logo}/>
   )
 }
 

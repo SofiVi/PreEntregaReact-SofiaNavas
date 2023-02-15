@@ -23,7 +23,7 @@ function NavBar(props) {
 
                 <Box>
                     <Menu>
-                      <Link to={"/catalogue"}>   
+                      <Link to={"/category/:id"}>   
                         <MenuButton  as={Button} size="lg"
                                       variant="outline"
                                       colorScheme="Orange 50"
@@ -52,6 +52,8 @@ function NavBar(props) {
                                         
                                 
                                   <MenuItem>Pizzas</MenuItem>
+
+                                  <MenuItem>Empanadas</MenuItem>
                                 
                                 
                                   <MenuItem>Desserts</MenuItem>

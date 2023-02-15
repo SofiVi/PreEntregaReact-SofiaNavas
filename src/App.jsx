@@ -16,7 +16,7 @@ return (
     <Routes>
       
       <Route exact path = "/" element= {<Welcome/>} />
-      <Route exact path = "/Catalogue" element= {<ItemListContainer/>} />
+      <Route exact path = "/category/:id" element= {<ItemListContainer/>} />
       
       <Route exact path = "/Cart" element= {<Cart/>} />
 
