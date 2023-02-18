@@ -93,3 +93,39 @@
     background-color: #900; /* Rojo oscuro */
   }
 
+
+  .item-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(211, 166, 139, 0.815);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .item-detail-container img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .item-detail-container h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .item-detail-container p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
