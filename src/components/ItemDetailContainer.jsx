@@ -8,7 +8,7 @@ const ItemDetailContainer = () => {
   const [selectedItem, setSelectedItem] = useState(null);
 
   useEffect(() => {
-    console.log(id);
+
     const item = Data.find((item) => item.id === Number(id));
     console.log(item); // add console.log statement here
     setSelectedItem(item);

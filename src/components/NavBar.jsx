@@ -23,7 +23,7 @@ function NavBar(props) {
 
                 <Box>
                     <Menu>
-                      <Link to={"/category/:id"}>   
+                      <Link to={"/category"}>   
                         <MenuButton  as={Button} size="lg"
                                       variant="outline"
                                       colorScheme="Orange 50"
@@ -51,15 +51,23 @@ function NavBar(props) {
                             <MenuList color="red">
                                         
                                 
-                                  <MenuItem>Pizzas</MenuItem>
+                                  <Link to={`/category/${"pizzas"}`}>
+                                    <MenuItem>Pizzas</MenuItem>
+                                  </Link>
 
-                                  <MenuItem>Empanadas</MenuItem>
-                                
-                                
-                                  <MenuItem>Desserts</MenuItem>
-                                
-                                
-                                  <MenuItem>Refreshing</MenuItem>
+                                  <Link to={`/category/${"empanadas"}`}>
+                                    <MenuItem>Empanadas</MenuItem>
+                                  </Link>
+                                                  
+                                                  
+                                  <Link to={`/category/${"desserts"}`}>
+                                    <MenuItem>Desserts</MenuItem>
+                                  </Link>
+                                                  
+                                                  
+                                  <Link to={`/category/${"refreshing"}`}>
+                                    <MenuItem>Refreshing</MenuItem>
+                                  </Link>
                                
                             </MenuList>
 
@@ -92,4 +100,3 @@ function NavBar(props) {
 NavBar.propTypes = {}
 
 export default NavBar;
-

@@ -21,7 +21,7 @@ const Item = () => {
                             <img src={logo} alt='Example image' borderRadius='lg' />
                             <h2>{item.name}</h2>
                             <p>ID: {item.id}</p>
-                            <p>Cstegory: {item.category}</p>
+                            <p>Category: {item.category}</p>
                             <p>${item.price}</p>
                             <button className="card-buy-btn"><Link to={`/item/${item.id}`}>Details</Link></button>                            
                             
